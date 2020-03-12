@@ -23,12 +23,12 @@ function doWhileLoop(num) {
 
 function incrementVariable() {
   i = i + 1;
-  console.log("I run once regardless.")
+
   return i;
 }
 
 do {
-  console.log("doo-bee-doo-bee-doo");
+  console.log("I run once regardless.")
 } while (incrementVariable() < num);
 /*
   function maybeTrue() {
