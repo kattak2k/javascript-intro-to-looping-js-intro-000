@@ -18,9 +18,19 @@ function whileLoop(n) {
     return "done";
   }
 
-function doWhileLoop(array) {
-//  console.log("I run once regardless." 1 time when passed an integer of 0 as a parameter.)
+function doWhileLoop(num) {
 
+ 
+function incrementVariable() {
+  i = i + 1;
+  console.log("I run once regardless.")
+  return i;
+}
+ 
+do {
+  console.log("doo-bee-doo-bee-doo");
+} while (incrementVariable() < 5);
+/*
   function maybeTrue() {
     return Math.random() >= 0.5
   }
@@ -29,5 +39,6 @@ function doWhileLoop(array) {
     console.log("I run once regardless.")
     array.pop();
   } while (array.length > -1 && maybeTrue());
-  return array;
+    return array;
+*/
 }
