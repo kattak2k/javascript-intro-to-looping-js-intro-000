@@ -29,7 +29,7 @@ function incrementVariable() {
 
 do {
   console.log("doo-bee-doo-bee-doo");
-} while (incrementVariable() < 5);
+} while (incrementVariable() < num);
 /*
   function maybeTrue() {
     return Math.random() >= 0.5
